@@ -7,7 +7,7 @@ public class bj_17406_RotationMatrix {
 	public static void permutation(int [] arr, int[] output, int[][] result, boolean[] visited, int depth, int r) {
 		if(depth == r) {
 			for(int i=0;i<r;i++) {
-				result[][i] = output[i];
+				result[r][i] = output[i];
 			}
 			return;
 		}
