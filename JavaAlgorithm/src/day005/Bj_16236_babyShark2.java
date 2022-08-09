@@ -66,7 +66,7 @@ public class Bj_16236_babyShark2 {
                 }
             }
         }
-        dist_list.sort();
+        //dist_list.sort();
     }
 
     public static void main(String[] args) throws IOException {
@@ -96,8 +96,8 @@ public class Bj_16236_babyShark2 {
         while(true){
 
         }
-        bfs(pos);
-        System.out.println();
+        //bfs(pos);
+        //System.out.println();
     }
     public static class Pos implements Comparable<Pos>{
         int r;

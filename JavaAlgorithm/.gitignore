@@ -1,1 +1,9 @@
 /bin/
+.metadata
+.classpath
+.project
+.idea
+org.eclipse.jdt.core.prefs
+/.recommenders/
+/classes/
+/.settings/
