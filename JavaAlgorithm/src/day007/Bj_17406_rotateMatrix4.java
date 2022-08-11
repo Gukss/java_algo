@@ -8,7 +8,6 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Bj_17406_rotateMatrix4 {
-
     static int[] arr;
     static int[] sel;
     static boolean[] visited;
@@ -54,6 +53,7 @@ public class Bj_17406_rotateMatrix4 {
         sel = new int[K]; //순열 저장할 배열
         visited = new boolean[K];
         qu = new LinkedList<>();
+
         int[][] pos = new int[K][3]; //좌표 저장
         for (int i = 0; i < K; i++) {
             arr[i] = i;
@@ -78,7 +78,6 @@ public class Bj_17406_rotateMatrix4 {
             }
 
             int[] turn = qu.poll(); //turn에 연산 수행 순서 들어있다. 수행 순서 바꿔서 실행하기 ex[0,1,2,3], [3,2,1,0]
-
             for (int i = 0; i < turn.length; i++) { //연산 순서대로 수행하기
                 int sr = pos[turn[i]][0] - pos[turn[i]][2]-1; //-1해서 배열 인덱스로 맞춰주기, 시작행
                 int sc = pos[turn[i]][1] - pos[turn[i]][2]-1; //시작열
@@ -86,7 +85,7 @@ public class Bj_17406_rotateMatrix4 {
                 int ec = pos[turn[i]][1] + pos[turn[i]][2]-1; //끝열
 
                 for (int j = 0; j < pos[turn[i]][2]; j++) { //층수
-                    int d=0;
+                    int d=0; //델타
 
                     int start = map[sr][sc]; //시작점 저장
                     int nr = sr; //바꿔줄 nr
@@ -109,7 +108,6 @@ public class Bj_17406_rotateMatrix4 {
                     sc = sc += 1;
                     er = er -= 1;
                     ec = ec -= 1;
-
                 }
             }
             //돌리기 연산 끝나면 합 구하기
