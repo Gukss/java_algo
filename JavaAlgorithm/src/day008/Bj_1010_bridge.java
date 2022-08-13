@@ -16,7 +16,7 @@ public class Bj_1010_bridge {
             int N = Integer.parseInt(st.nextToken());
             int M = Integer.parseInt(st.nextToken());
 
-            //29C13 -> 29P13/13! -> 13! 필요, 
+            //29C13 -> 29P13/13! -> 13! 필요,
 
             /* 0.5초 시간초과 발생
             Long upper = 1L;
