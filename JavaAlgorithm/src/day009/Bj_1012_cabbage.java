@@ -17,7 +17,6 @@ public class Bj_1012_cabbage {
     static int[] dc = {0,1,0,-1};
     static int result;
     public static void bfs(){
-
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
                 if(map[i][j] == 1 && !visited[i][j]){
