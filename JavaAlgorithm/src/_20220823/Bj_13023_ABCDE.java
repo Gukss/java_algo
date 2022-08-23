@@ -18,17 +18,17 @@ public class Bj_13023_ABCDE {
 
     public static void dfs(int i, int depth){
         if(result) return;
-        if(depth == 4){
+        if(depth == 4){ //깊이가 4가 되면 5명 연결돼있다.
             result = true;
             return;
         }
-        v[i] = true;
-        for (int j = 0; j < list[i].size(); j++) {
-            int cur = (int) list[i].get(j);
-            if(!v[cur]){
-                v[cur] = true;
-                dfs(cur, depth+1);
-                v[cur] = false;
+        v[i] = true; //시작점 방문처리
+        for (int j = 0; j < list[i].size(); j++) { //i번 리스트의 사이즈 만큼 반복
+            int cur = (int) list[i].get(j); //j번째 숫자 꺼내기
+            if(!v[cur]){ //방문안했으면
+                v[cur] = true; //방문처리하고
+                dfs(cur, depth+1); //재귀호출
+                v[cur] = false; //for문 진행을 위해 원상복귀
             }
         }
     }
@@ -39,51 +39,37 @@ public class Bj_13023_ABCDE {
 
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
-        map = new int[M][2];
-        list = new ArrayList[N];
+
+        list = new ArrayList[N]; //리스트배열
 
         for (int i = 0; i < N; i++) {
-            list[i] = new ArrayList<Integer>();
+            list[i] = new ArrayList<Integer>(); //리스트배열 초기화
         }
 
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
             int from = Integer.parseInt(st.nextToken());
             int to = Integer.parseInt(st.nextToken());
-            map[i][0] = from;
-            map[i][1] = to;
-            list[from].add(to);
+            list[from].add(to); //간선리스트 만들기
             list[to].add(from);
 
         }
 
-        Queue<int[]> qu = new LinkedList<>();
-
-        for (int i = 0; i < M; i++) {
-        v = new boolean[N];
-            result = false;
-                //qu.add(new int[] {map[i][1] , 1});
-            dfs(i, 0);
-            if(result) break;
+        for (int i = 0; i < N; i++) { //사람 수 만큼 반복
+            v = new boolean[N]; //시작하는 사람이 바귈 때 마다 방문배열 초기화
+            result = false; //결과값 초기화 -> 안해줘도 될것 같다.
+            dfs(i, 0); //함수 호출
+            if(result) break; //함수를 빠져나왔을 때 depth가 4가 되었다. 반복문도 탈출
         }
-        if(result) System.out.println(1);
+        if(result) System.out.println(1); //출력
         else System.out.println(0);
-
-//        while(!qu.isEmpty()){
-//            int[] cur = qu.poll();
-//            v[cur[0]] = true;
-//            if(cur[1] == 4){
-//                System.out.println(1);
-//                return;
-//            }
-//            for (int i = 0; i < M; i++) {
-//                if(map[i][0] == cur[0]){
-//                    qu.add(new int[] {map[i][1], cur[1]+1});
-//                }
-//            }
-//        }
-//
-//        //i로 시작하고 방문안한 곳 큐에 넣기
-//        System.out.println(0);
     }
 }
+/*
+5 4
+0 1
+1 2
+2 3
+3 0
+답: 0
+ */

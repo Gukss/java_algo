@@ -32,18 +32,17 @@ public class SW_7465_chang {
             int M = sc.nextInt();
             list = new int[M][2];
 
-            parents = new int[N+1];
-            for (int i = 1; i <= N ; i++) {
+            parents = new int[N+1]; //루트 배열 -> 1부터 사용한다.
+            for (int i = 1; i <= N ; i++) { //루트 초기화
                 parents[i] = i;
             }
 
-            for (int i = 0; i < M; i++) {
+            for (int i = 0; i < M; i++) { //간선 배열 만들기
                 int a = sc.nextInt();
                 int b = sc.nextInt();
 
                 list[i][0] = a;
                 list[i][1] = b;
-
             }
 
             for(int[] cur : list){
