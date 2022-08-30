@@ -61,7 +61,6 @@ public class Bj_14891_magnet_아직제출안함 {
 
         m = new int[4][8];
 
-            int K = Integer.parseInt(br.readLine());
 
             for (int i = 0; i < 4; i++) {
                 String temp = br.readLine();
@@ -69,6 +68,7 @@ public class Bj_14891_magnet_아직제출안함 {
                     m[i][j] = temp.charAt(j) - '0';
                 }
             }
+            int K = Integer.parseInt(br.readLine());
 
             for (int i = 0; i < K; i++) {
                 StringTokenizer st = new StringTokenizer(br.readLine());
