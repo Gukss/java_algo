@@ -16,10 +16,10 @@ public class Bj_19236_childshark2 {
 
     public static int[][] cpmap(int[][] map){
         int[][] cpmap = new int[4][4];
-
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                cpmap[i][j] = map[i][j];
+                int temp = map[i][j];
+                cpmap[i][j] = temp;
             }
         }
         return cpmap;
@@ -28,11 +28,52 @@ public class Bj_19236_childshark2 {
     public static Fish[] cpdirlist(Fish[] dirlist){
         Fish[] cpdirlist = new Fish[dirlist.length];
         for (int i = 0; i < dirlist.length; i++) {
-            cpdirlist[i] = dirlist[i];
+            cpdirlist[i] = new Fish(0, 0, 0, 0);
+            cpdirlist[i].num = dirlist[i].num;
+            cpdirlist[i].r = dirlist[i].r;
+            cpdirlist[i].c = dirlist[i].c;
+            cpdirlist[i].dir = dirlist[i].dir;
         }
         return cpdirlist;
     }
 
+
+//    public static void moveshark(Fish[] dirlist, int[][] map, int sum){
+//        int d = dirlist[0].dir;
+//        int sr = dirlist[0].r;
+//        int sc = dirlist[0].c;
+//        int nr = sr + dr[d];
+//        int nc = sc + dc[d];
+//
+//        while (nr>=0&&nc>=0&&nr<4&&nc<4) { //경계 안에 있을 때 까지 반복
+//            int[][] cpmap = cpmap(map);
+//            Fish[] cpdirlist = cpdirlist(dirlist);
+//            int tempnum = 0;
+//            int tempr = cpdirlist[0].r;
+//            int tempc = cpdirlist[0].c;
+//
+//            if(cpmap[nr][nc] != -1){
+//                //상어 옮기기
+//                cpdirlist[0].dir = cpdirlist[cpmap[nr][nc]].dir; //상어의 방향을 (nr,nc)물고기의 방향으로
+//                tempnum = cpmap[nr][nc];
+//                cpdirlist[cpmap[nr][nc]].num = -1; //(nr,nc)의 물고기 먹힘, num이 -1이면 먹힌 물고기다.
+//                cpmap[sr][sc] = -1;
+//                cpmap[nr][nc] = 0; //0번은 상어
+//                cpdirlist[0].r = nr;
+//                cpdirlist[0].c = nc;
+//
+//                start(cpdirlist, cpmap, sum+tempnum);
+////                sum -= tempnum;
+//                cpdirlist[cpmap[nr][nc]].num = tempnum;
+////                cpdirlist[0].r = tempr;
+////                cpdirlist[0].c = tempc;
+//            }
+//            nr = nr + dr[d];
+//            nc = nc + dc[d];
+//        }
+//        result = Math.max(result, sum);
+//        return;
+//    }
     public static void moveshark(Fish[] dirlist, int[][] map, int sum){
         int d = dirlist[0].dir;
         int sr = dirlist[0].r;
@@ -40,28 +81,29 @@ public class Bj_19236_childshark2 {
         int nr = sr + dr[d];
         int nc = sc + dc[d];
 
-
         while (nr>=0&&nc>=0&&nr<4&&nc<4) { //경계 안에 있을 때 까지 반복
             int[][] cpmap = cpmap(map);
             Fish[] cpdirlist = cpdirlist(dirlist);
             int tempnum = 0;
+            int tempdir = cpdirlist[0].dir;
             int tempr = cpdirlist[0].r;
             int tempc = cpdirlist[0].c;
 
             if(cpmap[nr][nc] != -1){
                 //상어 옮기기
                 cpdirlist[0].dir = cpdirlist[cpmap[nr][nc]].dir; //상어의 방향을 (nr,nc)물고기의 방향으로
-                sum += cpmap[nr][nc];
                 tempnum = cpmap[nr][nc];
-                cpdirlist[cpmap[nr][nc]].num = -1; //(nr,nc)의 물고기 먹힘, num이 -1이면 먹힌 물고기다.
+                cpdirlist[cpmap[nr][nc]].num = -1; //(nr,nc)의 물고기 먹힘, num이 -1이면 먹힌 물고기다.->마지막에바꾼거
                 cpmap[sr][sc] = -1;
                 cpmap[nr][nc] = 0; //0번은 상어
                 cpdirlist[0].r = nr;
                 cpdirlist[0].c = nc;
 
-                start(cpdirlist, cpmap, sum);
-                sum -= tempnum;
+                start(cpdirlist, cpmap, sum+tempnum);
                 cpdirlist[cpmap[nr][nc]].num = tempnum;
+                cpmap[sr][sc] = 0;
+                cpmap[nr][nc] = tempnum;
+                cpdirlist[0].dir = tempdir;
                 cpdirlist[0].r = tempr;
                 cpdirlist[0].c = tempc;
             }
@@ -85,36 +127,46 @@ public class Bj_19236_childshark2 {
                 int d = (cur.dir + j ) % 8;
                 int nr = sr + dr[d];
                 int nc = sc + dc[d];
-                if(nr>=0&&nc>=0&&nr<4&&nc<4 && cpmap[nr][nc] != 0 && cpmap[nr][nc] != -1) { //경계, 상어가 아닌곳, 물고기 없는곳은 -1로 하기
-                    int tempnum = cpmap[sr][sc];
-                    cpmap[sr][sc] = cpmap[nr][nc];
-                    cpmap[nr][nc] = tempnum; //map에서 num 바꾸기
 
-                    int tempr = cpdirlist[cpmap[sr][sc]].r; //cpdirlist.num은 먹힌 물고기 판별할 때만 사용 물고기 번호는 인덱스로 판별
-                    int tempc = cpdirlist[cpmap[sr][sc]].c;
-                    cpdirlist[cpmap[sr][sc]].r = cpdirlist[cpmap[nr][nc]].r;
-                    cpdirlist[cpmap[sr][sc]].c = cpdirlist[cpmap[nr][nc]].c;
-                    cpdirlist[cpmap[nr][nc]].r = tempr;
-                    cpdirlist[cpmap[nr][nc]].c = tempc;
+                if(nr>=0&&nc>=0&&nr<4&&nc<4 && cpmap[nr][nc] != 0) { //경계, 상어가 아닌곳, 물고기 없는곳은 -1로 하기
+                    //바뀐방향으로 방향도 바꿔줘야 한다.
+                    cpdirlist[i].dir = d;
 
-                    System.out.println(i + " "+ d+ " "+ cpdirlist[0].dir + " " +cpdirlist[cpmap[sr][sc]].dir);
-                    for (int k = 0; k < 4; k++) {
-                        for (int l = 0; l < 4; l++) {
-                            System.out.printf("%d ", cpmap[k][l]);
-                        }
-                        System.out.println();
+                    if(cpmap[nr][nc] == -1){ //빈칸인 경우도 이동가능
+                        cpmap[sr][sc] = -1;
+                        cpdirlist[i].r = nr;
+                        cpdirlist[i].c = nc;
+                        cpmap[nr][nc] = i;
+                    }else{
+                        int changeFishNum = cpdirlist[cpmap[nr][nc]].num;
+                        int tempr = cpdirlist[changeFishNum].r;
+                        int tempc = cpdirlist[changeFishNum].c;
+
+                        cpdirlist[changeFishNum].r = cpdirlist[i].r;
+                        cpdirlist[changeFishNum].c = cpdirlist[i].c;
+                        cpmap[cpdirlist[changeFishNum].r][cpdirlist[changeFishNum].c] = changeFishNum;
+
+                        cpdirlist[i].r = tempr;
+                        cpdirlist[i].c = tempc;
+                        cpmap[nr][nc] = i; //map에서 num 바꾸기
                     }
-                    System.out.println();
-                    System.out.println(sum);
-                    System.out.println("-----------------");
+
+//                    System.out.println(i + " "+ d+ " "+ cpdirlist[0].dir + " " +cpdirlist[i].dir);
+//                    for (int k = 0; k < 4; k++) {
+//                        for (int l = 0; l < 4; l++) {
+//                            System.out.printf("%d ", cpmap[k][l]);
+//                        }
+//                        System.out.println();
+//                    }
+//                    System.out.println();
+//                    System.out.println(sum);
+//                    System.out.println("-----------------");
                     break;
                 }
             }
         } //물고기 이동 완료
-
         //상어 이동
         moveshark(cpdirlist, cpmap, sum);
-
     }
 
     public static void main(String[] args) throws IOException {
@@ -148,7 +200,6 @@ public class Bj_19236_childshark2 {
 
     public static class Fish{
         int r,c,dir,num;
-
         public Fish(int r, int c, int num, int dir) {
             this.r = r;
             this.c = c;
