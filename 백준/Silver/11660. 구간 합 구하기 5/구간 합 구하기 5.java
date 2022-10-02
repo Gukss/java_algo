@@ -9,6 +9,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
@@ -36,9 +37,8 @@ public class Main {
             c2 = Integer.parseInt(st.nextToken());
 
             int result = data[r2][c2] - data[r2][c1-1] - data[r1-1][c2] + data[r1-1][c1-1];
-            StringBuilder sb = new StringBuilder();
-            sb.append(result);
-            System.out.println(sb);
+            sb.append(result+"\n");
         }
+        System.out.println(sb);
     }
 }
