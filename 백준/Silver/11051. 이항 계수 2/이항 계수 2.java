@@ -20,9 +20,12 @@ public class Main {
             for (int j = 0; j <= Math.min(i,K); j++) {
                 if(i==j || j==0){
                     dp[i][j] = 1;
-                }else{
-                    dp[i][j] = (dp[i-1][j]+dp[i-1][j-1]) % 10007;
+                    continue;
                 }
+                if(dp[i][j] != 0){
+                    continue;
+                }
+                dp[i][j] = (dp[i-1][j]+dp[i-1][j-1])%10007;
             }
         }
         System.out.println(dp[N][K]);
