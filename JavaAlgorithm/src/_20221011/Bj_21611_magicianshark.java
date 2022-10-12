@@ -166,27 +166,36 @@ public class Bj_21611_magicianshark {
             Deque<Integer> temp = new LinkedList<>();
             int beforenum = 0;
             int count = 1;
-            for (Integer num : qu) {
-                if(beforenum == num){
-                    count += 1;
-                }else{
-                    if(count >= 4){
-                        for (int i = 0; i < count; i++) {
-                            if(beforenum == 1){
-                                ex_1 += 1;
-                            }else if(beforenum == 2){
-                                ex_2 += 1;
-                            }else if(beforenum == 3){
-                                ex_3 += 1;
-                            }
-                            temp.pollLast();
-                        }
-                        stop = false;
+            int size = qu.size();
+            for (int i=0;i<size;i++) {
+                if(!qu.isEmpty()){
+                    int num = qu.poll();
+                    if(beforenum == num){
+                        count += 1;
                     }
-                    count = 1;
+                    if(beforenum != num || qu.isEmpty()){ //마지막인 경우를 추가해 줘야 한다. -> 마지막은 beforenum!=num에 걸리지 않는다.
+                        if(count >= 4){
+                            for (int j = 0; j < count; j++) {
+                                if(beforenum == 1){
+                                    ex_1 += 1;
+                                }else if(beforenum == 2){
+                                    ex_2 += 1;
+                                }else if(beforenum == 3){
+                                    ex_3 += 1;
+                                }
+                                if(!temp.isEmpty()){
+                                    temp.pollLast();
+                                }else{
+                                    break;
+                                }
+                            }
+                            stop = false;
+                        }
+                        count = 1;
+                    }
+                    temp.add(num);
+                    beforenum = num;
                 }
-                temp.add(num);
-                beforenum = num;
             }
             qu = new LinkedList<>();
             for (Integer num : temp) {
@@ -202,7 +211,12 @@ public class Bj_21611_magicianshark {
     public static void transform(){
         quin();
         Deque<Integer> temp = new LinkedList<>();
-        int beforenum = qu.peek();
+        int beforenum = 0;
+        if(!qu.isEmpty()){ //구슬이 하나도 없을 때 예외처리 안해줬다.
+            beforenum = qu.peek();
+        }else{
+            return;
+        }
         int count = 0;
         for (Integer num : qu) {
             if(beforenum == num){
@@ -256,3 +270,20 @@ public class Bj_21611_magicianshark {
         System.out.println(ex_1*1 + ex_2*2 + ex_3*3);
     }
 }
+/*
+3 1
+0 0 0
+0 0 0
+0 0 0
+1 1
+ans: 0 => 구슬이 없는 경우
+
+5 1
+0 0 0 0 0
+0 0 1 1 0
+0 1 0 1 0
+0 1 1 1 0
+0 0 0 0 0
+1 2
+ans: 6
+ */
