@@ -14,21 +14,15 @@ public class Main {
         int out = 0;
         int[] base = new int[3]; //초기 1,2,3루 비워놓는다.
         Arrays.fill(base, -1);
-//        boolean[] runner = new boolean[9];
         while(out < 3){
             if(turn == 9){
                 turn -= 9;
             }
-//            if(runner[turn]){
-//                turn += 1;
-//                continue;
-//            }
             int power = map[innings][sel[turn]];
             if(power == 1){ //안타
                 for (int i = 2; i >= 0; i--) {
                     if(base[i] != -1){ //주자있는 경우
                         if(i==2){ //3루에 주자 있는 경우
-//                            runner[base[i]] = false;
                             base[i] = -1;
                             result += 1;
                         }else{
@@ -38,12 +32,10 @@ public class Main {
                     }
                 }
                 base[0] = turn;
-//                runner[turn] = true;
             }else if(power == 2){ //2루타
                 for (int i = 2; i >= 0; i--) {
                     if(base[i] != -1){
                         if(i==1 || i==2){
-//                            runner[base[i]] = true;
                             base[i] = -1;
                             result += 1;
                         }else{
@@ -53,22 +45,18 @@ public class Main {
                     }
                 }
                 base[1] = turn;
-//                runner[turn] = true;
             }else if(power == 3){ //3루타
                 for (int i = 2; i >= 0; i--) {
                     if(base[i] != -1){
                         result += 1;
-//                        runner[base[i]] = false;
                         base[i] = -1;
                     }
                 }
                 base[2] = turn;
-//                runner[turn] = true;
             }else if(power == 4){ //홈런
                 for (int i = 2; i >= 0; i--) {
                     if(base[i] != -1){
                         result += 1;
-//                        runner[base[i]] = false;
                         base[i] = -1;
                     }
                 }
@@ -95,24 +83,16 @@ public class Main {
         }
         for (int i = 0; i < map[0].length; i++) {
             if(v[i]) continue;
-//            if(idx==3){ //4번 타자는 항상 0으로 고정
-//                perm(idx+1);
-//            }else{
-                v[i] = true;
-                sel[i] = idx;
+                v[i] = true; //왜 v[idx]가 아니라 v[i]가 true일까? => 이거는 그냥 잘못적었던것
+                sel[i] = idx; //여기도 왜 idx랑 i가 자리가 바꼈을까?
                 perm(idx+1);
-//            }
-//            if(i==0){ //0은 항상 4번에 들어가있기 때문에 방문처리 x
-//                continue;
-//            }else{
                 v[i] = false;
-//            }
         }
     }
 
     public static void start(){
         v = new boolean[9];
-        v[3] = true;
+        v[3] = true; //왜 첫 번째, 0을 true로 안하고, 4번째를 true로 했을까?
         sel = new int[9];
         sel[3] = 0;
         perm(1);
