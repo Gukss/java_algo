@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Bj_14891_magnet_아직제출안함 {
+public class Bj_14891_magnet {
     static int[][] m;
     static Queue<Integer> qu;
     static int num;
