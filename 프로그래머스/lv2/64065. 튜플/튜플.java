@@ -35,11 +35,15 @@ class Solution {
         S = s;
         size = S.length();
         map = new HashMap<>();
-        pq = new PriorityQueue<>(new Comparator<Pos>(){ //내림차순 정렬하는 pq
-            public int compare(Pos o1, Pos o2){
-                return o2.count-o1.count;
-            }
-        });
+        // pq = new PriorityQueue<>(new Comparator<Pos>(){ //내림차순 정렬하는 pq
+        //     public int compare(Pos o1, Pos o2){
+        //         return o2.count-o1.count;
+        //     }
+        // });
+        // pq = new PriorityQueue<>((o1, o2)->(o2.count - o1.count));
+        pq = new PriorityQueue<>((o1, o2)->{if(o2.count==o1.count){return o2.num-o1.num;}else{return o2.count - o1.count;}});
+        
+        //(o1, o2)->(o1.n - o2.n);
         check();
         
         int[] answer = result;
@@ -55,4 +59,3 @@ class Solution {
         }
     }
 }
-//1시간 반
