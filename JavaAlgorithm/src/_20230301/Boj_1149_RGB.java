@@ -51,4 +51,4 @@ public class Boj_1149_RGB {
 	}
 }
 
-//1시간
+//1시간 30분
