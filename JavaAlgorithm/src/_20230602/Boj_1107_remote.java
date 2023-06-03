@@ -18,14 +18,16 @@ public class Boj_1107_remote {
 		N = Integer.parseInt(Nstr);
 		M = Integer.parseInt(br.readLine());
 		b = new boolean[10];
-		st = new StringTokenizer(br.readLine());
-		for(int i=0;i<M;i++){
-			int x = Integer.parseInt(st.nextToken());
-			b[x] = true;
+		if(M!=0){ //버튼이 다 고장났으면 입력을 받지 않는다.
+			st = new StringTokenizer(br.readLine());
+			for(int i=0;i<M;i++){
+				int x = Integer.parseInt(st.nextToken());
+				b[x] = true;
+			}
 		}
 		
 		int result = Math.abs(N-100);
-		for(int i=0;i<999999;i++){
+		for(int i=0;i<=999999;i++){
 			String str = Integer.toString(i);
 			int len = str.length();
 			boolean stop = false;
