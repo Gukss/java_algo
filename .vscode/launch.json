@@ -1,0 +1,1491 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Boj_1764_never",
+			"request": "launch",
+			"mainClass": "_20240111.Boj_1764_never",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_11047_coin0",
+			"request": "launch",
+			"mainClass": "_20240109.Boj_11047_coin0",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_1629_mul",
+			"request": "launch",
+			"mainClass": "_20240108.Boj_1629_mul",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_15657_NM8",
+			"request": "launch",
+			"mainClass": "_20240105.Boj_15657_NM8",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_11725_parentTree",
+			"request": "launch",
+			"mainClass": "_20240104.Boj_11725_parentTree",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_1918_postOrder",
+			"request": "launch",
+			"mainClass": "_20240103.Boj_1918_postOrder",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_14502_lab",
+			"request": "launch",
+			"mainClass": "_20240101.Boj_14502_lab",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_1976_travel",
+			"request": "launch",
+			"mainClass": "_20231228.Boj_1976_travel",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Current File",
+			"request": "launch",
+			"mainClass": "${file}"
+		},
+		{
+			"type": "java",
+			"name": "linkedList",
+			"request": "launch",
+			"mainClass": "DataStructure.linkedList",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_11724_numLink",
+			"request": "launch",
+			"mainClass": "_20220815.Bj_11724_numLink",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2178_maze",
+			"request": "launch",
+			"mainClass": "_20220815.Bj_2178_maze",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_9019_DSLR",
+			"request": "launch",
+			"mainClass": "_20220815.Bj_9019_DSLR",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1931_meeting",
+			"request": "launch",
+			"mainClass": "_20220816.Bj_1931_meeting",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2630_colorPaper",
+			"request": "launch",
+			"mainClass": "_20220816.Bj_2630_colorPaper",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2839_sugar",
+			"request": "launch",
+			"mainClass": "_20220816.Bj_2839_sugar",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_5430_AC",
+			"request": "launch",
+			"mainClass": "_20220816.Bj_5430_AC",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "JO_1828_refrigerator",
+			"request": "launch",
+			"mainClass": "_20220816.JO_1828_refrigerator",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_15683_watch",
+			"request": "launch",
+			"mainClass": "_20220817.Bj_15683_watch",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1992_quadTree",
+			"request": "launch",
+			"mainClass": "_20220817.Bj_1992_quadTree",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1987_alph",
+			"request": "launch",
+			"mainClass": "_20220818.Bj_1987_alph",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2920_scale",
+			"request": "launch",
+			"mainClass": "_20220818.Bj_2920_scale",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_3109_bakery",
+			"request": "launch",
+			"mainClass": "_20220818.Bj_3109_bakery",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1697_hide",
+			"request": "launch",
+			"mainClass": "_20220820.Bj_1697_hide",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17135_castle",
+			"request": "launch",
+			"mainClass": "_20220820.Bj_17135_castle",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17136_colorPaperAttatch",
+			"request": "launch",
+			"mainClass": "_20220820.Bj_17136_colorPaperAttatch",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_11399_ATM",
+			"request": "launch",
+			"mainClass": "_20220821.Bj_11399_ATM",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2564_guard",
+			"request": "launch",
+			"mainClass": "_20220821.Bj_2564_guard",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2798_blackJack",
+			"request": "launch",
+			"mainClass": "_20220821.Bj_2798_blackJack",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_3985_rollCake",
+			"request": "launch",
+			"mainClass": "_20220821.Bj_3985_rollCake",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1197_MST",
+			"request": "launch",
+			"mainClass": "_20220822.Bj_1197_MST",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "MST",
+			"request": "launch",
+			"mainClass": "_20220822.MST",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_13023_ABCDE",
+			"request": "launch",
+			"mainClass": "_20220823.Bj_13023_ABCDE",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_1238_contact",
+			"request": "launch",
+			"mainClass": "_20220823.SW_1238_contact",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_7465_chang",
+			"request": "launch",
+			"mainClass": "_20220823.SW_7465_chang",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_10026_RG",
+			"request": "launch",
+			"mainClass": "_20220824.Bj_10026_RG",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16236_bbShark",
+			"request": "launch",
+			"mainClass": "_20220824.Bj_16236_bbShark",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17070_pipe",
+			"request": "launch",
+			"mainClass": "_20220824.Bj_17070_pipe",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_3055_escape",
+			"request": "launch",
+			"mainClass": "_20220824.Bj_3055_escape",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_13418_school",
+			"request": "launch",
+			"mainClass": "_20220825.Bj_13418_school",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1753_shortest",
+			"request": "launch",
+			"mainClass": "_20220825.Bj_1753_shortest",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_14891_magnet",
+			"request": "launch",
+			"mainClass": "_20220826.Bj_14891_magnet",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_4013_magnet",
+			"request": "launch",
+			"mainClass": "_20220826.SW_4013_magnet",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2206_wall",
+			"request": "launch",
+			"mainClass": "_20220827.Bj_2206_wall",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2580_sudoku",
+			"request": "launch",
+			"mainClass": "_20220827.Bj_2580_sudoku",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2630_colorPaper(1)",
+			"request": "launch",
+			"mainClass": "_20220827.Bj_2630_colorPaper",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_7576_tomato",
+			"request": "launch",
+			"mainClass": "_20220827.Bj_7576_tomato",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_ex1_fishing",
+			"request": "launch",
+			"mainClass": "_20220827.SW_ex1_fishing",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2023_odd",
+			"request": "launch",
+			"mainClass": "_20220828.Bj_2023_odd",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2606_virus",
+			"request": "launch",
+			"mainClass": "_20220828.Bj_2606_virus",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_ex2_hunter",
+			"request": "launch",
+			"mainClass": "_20220828.SW_ex2_hunter",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_ex2_hunter2",
+			"request": "launch",
+			"mainClass": "_20220828.SW_ex2_hunter2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "PCSTest",
+			"request": "launch",
+			"mainClass": "_20220829.PCSTest",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Problem01",
+			"request": "launch",
+			"mainClass": "_20220829_test.Problem01",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_14889_startandlink",
+			"request": "launch",
+			"mainClass": "_20220830.Bj_14889_startandlink",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2475_num",
+			"request": "launch",
+			"mainClass": "_20220830.Bj_2475_num",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_14502_lab",
+			"request": "launch",
+			"mainClass": "_20220831.Bj_14502_lab",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17141_lab2",
+			"request": "launch",
+			"mainClass": "_20220901.Bj_17141_lab2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17142_lab3",
+			"request": "launch",
+			"mainClass": "_20220903.Bj_17142_lab3",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2146_bridge",
+			"request": "launch",
+			"mainClass": "_20220903.Bj_2146_bridge",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17472_bridge2",
+			"request": "launch",
+			"mainClass": "_20220904.Bj_17472_bridge2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_9012_bracket",
+			"request": "launch",
+			"mainClass": "_20220904.Bj_9012_bracket",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_18430_weapon",
+			"request": "launch",
+			"mainClass": "_20220905.Bj_18430_weapon",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_3980_entry",
+			"request": "launch",
+			"mainClass": "_20220905.Bj_3980_entry",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_10828_stack",
+			"request": "launch",
+			"mainClass": "_20220906.Bj_10828_stack",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1799_bishop",
+			"request": "launch",
+			"mainClass": "_20220906.Bj_1799_bishop",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_10845_queue",
+			"request": "launch",
+			"mainClass": "_20220907.Bj_10845_queue",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1062_teaching",
+			"request": "launch",
+			"mainClass": "_20220908.Bj_1062_teaching",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_10866_deque",
+			"request": "launch",
+			"mainClass": "_20220908.Bj_10866_deque",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_11866_Josephus",
+			"request": "launch",
+			"mainClass": "_20220909.Bj_11866_Josephus",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_19236_childshark",
+			"request": "launch",
+			"mainClass": "_20220909.Bj_19236_childshark",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_19236_childshark2",
+			"request": "launch",
+			"mainClass": "_20220909.Bj_19236_childshark2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1259_palindrome",
+			"request": "launch",
+			"mainClass": "_20220911.Bj_1259_palindrome",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1405_crazyrobot",
+			"request": "launch",
+			"mainClass": "_20220913.Bj_1405_crazyrobot",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16637_addbracket",
+			"request": "launch",
+			"mainClass": "_20220914.Bj_16637_addbracket",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1043_lier",
+			"request": "launch",
+			"mainClass": "_20220916.Bj_1043_lier",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1967_treeR",
+			"request": "launch",
+			"mainClass": "_20220917.Bj_1967_treeR",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2026_picnic",
+			"request": "launch",
+			"mainClass": "_20220918.Bj_2026_picnic",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1912_continuity",
+			"request": "launch",
+			"mainClass": "_20220919.Bj_1912_continuity",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_10844_stepnumber",
+			"request": "launch",
+			"mainClass": "_20220920.Bj_10844_stepnumber",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_9184_recur",
+			"request": "launch",
+			"mainClass": "_20220920.Bj_9184_recur",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1075_divide",
+			"request": "launch",
+			"mainClass": "_20220921.Bj_1075_divide",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_12865_knapsack",
+			"request": "launch",
+			"mainClass": "_20220921.Bj_12865_knapsack",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16234_move",
+			"request": "launch",
+			"mainClass": "_20220922.Bj_16234_move",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2156_wine",
+			"request": "launch",
+			"mainClass": "_20220923.Bj_2156_wine",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_11053_longperm",
+			"request": "launch",
+			"mainClass": "_20220924.Bj_11053_longperm",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1920_number",
+			"request": "launch",
+			"mainClass": "_20220924.Bj_1920_number",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16234_move(1)",
+			"request": "launch",
+			"mainClass": "_20220925.Bj_16234_move",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_9465_sticker",
+			"request": "launch",
+			"mainClass": "_20220926.Bj_9465_sticker",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_9465_sticker2",
+			"request": "launch",
+			"mainClass": "_20220926.Bj_9465_sticker2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1113_pool",
+			"request": "launch",
+			"mainClass": "_20220928.Bj_1113_pool",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2638_cheeze",
+			"request": "launch",
+			"mainClass": "_20220928.Bj_2638_cheeze",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2579_step",
+			"request": "launch",
+			"mainClass": "_20220929.Bj_2579_step",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_9935_explosion",
+			"request": "launch",
+			"mainClass": "_20220929.Bj_9935_explosion",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "JO_2577_susi",
+			"request": "launch",
+			"mainClass": "_20220929.JO_2577_susi",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1520_slide",
+			"request": "launch",
+			"mainClass": "_20221001.Bj_1520_slide",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_11660_sum",
+			"request": "launch",
+			"mainClass": "_20221002.Bj_11660_sum",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_1249_supply",
+			"request": "launch",
+			"mainClass": "_20221002.SW_1249_supply",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_11051_binomialcoefficient",
+			"request": "launch",
+			"mainClass": "_20221003.Bj_11051_binomialcoefficient",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_6443_anagram",
+			"request": "launch",
+			"mainClass": "_20221003.Bj_6443_anagram",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_11053_LIS",
+			"request": "launch",
+			"mainClass": "_20221004.Bj_11053_LIS",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2239_sudoku",
+			"request": "launch",
+			"mainClass": "_20221004.Bj_2239_sudoku",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_5656_breakout",
+			"request": "launch",
+			"mainClass": "_20221004.SW_5656_breakout",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17143_fishing",
+			"request": "launch",
+			"mainClass": "_20221005.Bj_17143_fishing",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_5597_student",
+			"request": "launch",
+			"mainClass": "_20221005.Bj_5597_student",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17143_fishing(1)",
+			"request": "launch",
+			"mainClass": "_20221006.Bj_17143_fishing",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_9205_beer",
+			"request": "launch",
+			"mainClass": "_20221006.Bj_9205_beer",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_eggegg",
+			"request": "launch",
+			"mainClass": "_20221007.Bj_eggegg",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1271_rich",
+			"request": "launch",
+			"mainClass": "_20221008.Bj_1271_rich",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_12852_makeone",
+			"request": "launch",
+			"mainClass": "_20221008.Bj_12852_makeone",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17472_bridge2(1)",
+			"request": "launch",
+			"mainClass": "_20221008.Bj_17472_bridge2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_14890_slide",
+			"request": "launch",
+			"mainClass": "_20221009.Bj_14890_slide",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_14890_slide(1)",
+			"request": "launch",
+			"mainClass": "_20221010.Bj_14890_slide",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17472_bridge2(2)",
+			"request": "launch",
+			"mainClass": "_20221010.Bj_17472_bridge2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_15961_susi",
+			"request": "launch",
+			"mainClass": "_20221011.Bj_15961_susi",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_21611_magicianshark",
+			"request": "launch",
+			"mainClass": "_20221011.Bj_21611_magicianshark",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "pcp01",
+			"request": "launch",
+			"mainClass": "_20221012.pcp01",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "pcp02",
+			"request": "launch",
+			"mainClass": "_20221012.pcp02",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_14500_tetromino",
+			"request": "launch",
+			"mainClass": "_20221013.Bj_14500_tetromino",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_5607_comb",
+			"request": "launch",
+			"mainClass": "_20221013.SW_5607_comb",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_5656_block",
+			"request": "launch",
+			"mainClass": "_20221013.SW_5656_block",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_14500_tetromino(1)",
+			"request": "launch",
+			"mainClass": "_20221014.Bj_14500_tetromino",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_12865_knapsack(1)",
+			"request": "launch",
+			"mainClass": "_20221015.Bj_12865_knapsack",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1890_jump",
+			"request": "launch",
+			"mainClass": "_20221015.Bj_1890_jump",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16235_tree",
+			"request": "launch",
+			"mainClass": "_20221016.Bj_16235_tree",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1309_zoo",
+			"request": "launch",
+			"mainClass": "_20221018.Bj_1309_zoo",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17281_baseball",
+			"request": "launch",
+			"mainClass": "_20221022.Bj_17281_baseball",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1010_bridge",
+			"request": "launch",
+			"mainClass": "_20221023.Bj_1010_bridge",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2110_install",
+			"request": "launch",
+			"mainClass": "_20221029.Bj_2110_install",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2636_cheeze",
+			"request": "launch",
+			"mainClass": "_20221030.Bj_2636_cheeze",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17142_lab3(1)",
+			"request": "launch",
+			"mainClass": "_20221101.Bj_17142_lab3",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2805_tree",
+			"request": "launch",
+			"mainClass": "_20221102.Bj_2805_tree",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_11559_puyopuyo",
+			"request": "launch",
+			"mainClass": "_20221103.Bj_11559_puyopuyo",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17837_newgame2",
+			"request": "launch",
+			"mainClass": "_20221104.Bj_17837_newgame2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_10610_30",
+			"request": "launch",
+			"mainClass": "_20221105.Bj_10610_30",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_19238_taxi",
+			"request": "launch",
+			"mainClass": "_20221108.Bj_19238_taxi",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_12100_2048",
+			"request": "launch",
+			"mainClass": "_20221109.Bj_12100_2048",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2467_liquid",
+			"request": "launch",
+			"mainClass": "_20221120.Bj_2467_liquid",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "PG_tangerine",
+			"request": "launch",
+			"mainClass": "_20221127.PG_tangerine",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1009_distributedProcessing",
+			"request": "launch",
+			"mainClass": "_20221203.Bj_1009_distributedProcessing",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1010_bridge(1)",
+			"request": "launch",
+			"mainClass": "_20221204.Bj_1010_bridge",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2163_chocolate",
+			"request": "launch",
+			"mainClass": "_20221204.Bj_2163_chocolate",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1026_treasure",
+			"request": "launch",
+			"mainClass": "_20221205.Bj_1026_treasure",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1021_queue",
+			"request": "launch",
+			"mainClass": "_20221206.Bj_1021_queue",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1874_stack",
+			"request": "launch",
+			"mainClass": "_20221207.Bj_1874_stack",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1024_sum",
+			"request": "launch",
+			"mainClass": "_20221208.Bj_1024_sum",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution1",
+			"request": "launch",
+			"mainClass": "_2022CODEMONSTER.Solution1",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution1(1)",
+			"request": "launch",
+			"mainClass": "_2022_2_kakao.Solution1",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution2",
+			"request": "launch",
+			"mainClass": "_2022_2_kakao.Solution2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution6",
+			"request": "launch",
+			"mainClass": "_2022_2_kakao.Solution6",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1547_ball",
+			"request": "launch",
+			"mainClass": "_20230116.Bj_1547_ball",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_27210_god",
+			"request": "launch",
+			"mainClass": "_20230118.Bj_27210_god",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_1288",
+			"request": "launch",
+			"mainClass": "_20230206.SW_1288",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_1231_inOrder",
+			"request": "launch",
+			"mainClass": "_20230209.SW_1231_inOrder",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution1(2)",
+			"request": "launch",
+			"mainClass": "_20230223_skplanet.Solution1",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution2(1)",
+			"request": "launch",
+			"mainClass": "_20230223_skplanet.Solution2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution3",
+			"request": "launch",
+			"mainClass": "_20230223_skplanet.Solution3",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_15686_Chicken",
+			"request": "launch",
+			"mainClass": "_20230224.Bj_15686_Chicken",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_22944_rain",
+			"request": "launch",
+			"mainClass": "_20230225.Bj_22944_rain",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_1904_01",
+			"request": "launch",
+			"mainClass": "_20230226.Boj_1904_01",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_9461_wave",
+			"request": "launch",
+			"mainClass": "_20230227.Boj_9461_wave",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_1912_continue",
+			"request": "launch",
+			"mainClass": "_20230228.Boj_1912_continue",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_1149_RGB",
+			"request": "launch",
+			"mainClass": "_20230301.Boj_1149_RGB",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_21315_card",
+			"request": "launch",
+			"mainClass": "_20230301.Boj_21315_card",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "test",
+			"request": "launch",
+			"mainClass": "_20230321.test",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_2661_perm",
+			"request": "launch",
+			"mainClass": "_20230325.Boj_2661_perm",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_20207_calendar",
+			"request": "launch",
+			"mainClass": "_20230327.Boj_20207_calendar",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_1174_desc",
+			"request": "launch",
+			"mainClass": "_20230402.Boj_1174_desc",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_16719_ZOAC",
+			"request": "launch",
+			"mainClass": "_20230403.Boj_16719_ZOAC",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Code_battle",
+			"request": "launch",
+			"mainClass": "_20230404.Code_battle",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_2469_ladder",
+			"request": "launch",
+			"mainClass": "_20230406.Boj_2469_ladder",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution01",
+			"request": "launch",
+			"mainClass": "_20230413.Solution01",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution02",
+			"request": "launch",
+			"mainClass": "_20230413.Solution02",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Solution03",
+			"request": "launch",
+			"mainClass": "_20230413.Solution03",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_2156_wine",
+			"request": "launch",
+			"mainClass": "_20230423.Boj_2156_wine",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "test(1)",
+			"request": "launch",
+			"mainClass": "_20230523.test",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_1107_remote",
+			"request": "launch",
+			"mainClass": "_20230602.Boj_1107_remote",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_13023_ABCDE",
+			"request": "launch",
+			"mainClass": "_20230602.Boj_13023_ABCDE",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Boj_18405_infection",
+			"request": "launch",
+			"mainClass": "_20231218.Boj_18405_infection",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "bj_17406_RotationMatrix",
+			"request": "launch",
+			"mainClass": "day001.bj_17406_RotationMatrix",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "swea_7272_glasses",
+			"request": "launch",
+			"mainClass": "day001.swea_7272_glasses",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1926_picture",
+			"request": "launch",
+			"mainClass": "day002.Bj_1926_picture",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_7576_tomato(1)",
+			"request": "launch",
+			"mainClass": "day002.Bj_7576_tomato",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1697_hide(1)",
+			"request": "launch",
+			"mainClass": "day003.Bj_1697_hide",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2573_iceberg",
+			"request": "launch",
+			"mainClass": "day003.Bj_2573_iceberg",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_5427_fire",
+			"request": "launch",
+			"mainClass": "day003.Bj_5427_fire",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_5427_fire2",
+			"request": "launch",
+			"mainClass": "day003.Bj_5427_fire2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1260_DFSBFS",
+			"request": "launch",
+			"mainClass": "day004.Bj_1260_DFSBFS",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17471_gerrymandering",
+			"request": "launch",
+			"mainClass": "day004.Bj_17471_gerrymandering",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_9466_term",
+			"request": "launch",
+			"mainClass": "day004.Bj_9466_term",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "bj_2206_wall",
+			"request": "launch",
+			"mainClass": "day004.bj_2206_wall",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_15665_NM11",
+			"request": "launch",
+			"mainClass": "day005.Bj_15665_NM11",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1600_MonkeyHorse",
+			"request": "launch",
+			"mainClass": "day005.Bj_1600_MonkeyHorse",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16236_babyShark",
+			"request": "launch",
+			"mainClass": "day005.Bj_16236_babyShark",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16236_babyShark2",
+			"request": "launch",
+			"mainClass": "day005.Bj_16236_babyShark2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_9663_NQueen2",
+			"request": "launch",
+			"mainClass": "day005.Bj_9663_NQueen2",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "P_01",
+			"request": "launch",
+			"mainClass": "day005.P_01",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "P_02",
+			"request": "launch",
+			"mainClass": "day005.P_02",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "P_03",
+			"request": "launch",
+			"mainClass": "day005.P_03",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16987_eggegg",
+			"request": "launch",
+			"mainClass": "day006.Bj_16987_eggegg",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_2563_colorPaper",
+			"request": "launch",
+			"mainClass": "day006.Bj_2563_colorPaper",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16935_rotateMatrix3",
+			"request": "launch",
+			"mainClass": "day007.Bj_16935_rotateMatrix3",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_17406_rotateMatrix4",
+			"request": "launch",
+			"mainClass": "day007.Bj_17406_rotateMatrix4",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1010_bridge(2)",
+			"request": "launch",
+			"mainClass": "day008.Bj_1010_bridge",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_16234_immigrant",
+			"request": "launch",
+			"mainClass": "day008.Bj_16234_immigrant",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_3040_snowWhite",
+			"request": "launch",
+			"mainClass": "day008.Bj_3040_snowWhite",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "SW_5215_hamburger",
+			"request": "launch",
+			"mainClass": "day008.SW_5215_hamburger",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1012_cabbage",
+			"request": "launch",
+			"mainClass": "day009.Bj_1012_cabbage",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1541_loseBracket",
+			"request": "launch",
+			"mainClass": "day009.Bj_1541_loseBracket",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_1074_Z",
+			"request": "launch",
+			"mainClass": "day010.Bj_1074_Z",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "Bj_7569_tomato",
+			"request": "launch",
+			"mainClass": "day010.Bj_7569_tomato",
+			"projectName": "JavaAlgorithm"
+		},
+		{
+			"type": "java",
+			"name": "pcp",
+			"request": "launch",
+			"mainClass": "순조부.pcp",
+			"projectName": "JavaAlgorithm"
+		}
+	]
+}
