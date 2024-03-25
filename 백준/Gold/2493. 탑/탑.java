@@ -1,54 +1,48 @@
-
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
-
-        int N = Integer.parseInt(br.readLine());
-
-        Stack<int[]> tower = new Stack<>();
-        StringBuilder sb = new StringBuilder();
-//        tower.add(new int[] {sc.nextInt(), 0});
-//        rc[0] = 0;
-//        for (int i = 1; i < N; i++) {
-//            int[] top = tower.peek();
-//            int next = sc.nextInt();
-//            if(tower.peek()[0] < next) {
-//                tower.pop();
-//            }
-//
-//
-//            if(tower.isEmpty()) {
-//                rc[i] = 0;
-//            }else{
-//                rc[i] = tower.peek()[1]+1;
-//            }
-//            tower.add(new int[] {next, i});
-//        }
-        st = new StringTokenizer(br.readLine());
-
-        tower.add(new int[] {Integer.parseInt(st.nextToken()), 0});
-        System.out.printf("%d ", 0);
-        for (int i = 0; i < N-1; i++) {
-            int next = Integer.parseInt(st.nextToken());
-            while(!tower.isEmpty() && tower.peek()[0] < next){ //if 가 아니고 여러개를 빼줘야 한다.
-                tower.pop();
-            }
-            if(tower.isEmpty()){
-//                System.out.printf("%d ", 0);
-                sb.append(0).append(" ");
-            }else{
-//                System.out.printf("%d ", tower.peek()[1]+1);
-                sb.append(tower.peek()[1]+1).append(" ");
-            }
-            tower.add(new int[] {next, i+1});
+  //전부 stack에 넣는다.
+  //pop하고 peek와 비교한다. pop했을 때 size를 저장해놓는다. idx랑 같이 사용한다. => 한번에 출력하려니까 안됐다.
+  //pop할 때 idx를 바로 출력한다.
+  //pop > peek => 다시 pop -> 이때 pop은 버린다.
+  //pop < peek => 출력
+  public static int N;
+  public static Stack<Pos> stack;
+  public static void main(String[] args) throws Exception {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    N = Integer.parseInt(br.readLine());
+    StringTokenizer st = new StringTokenizer(br.readLine());
+    StringBuilder sb = new StringBuilder();
+    stack = new Stack<>();
+    for(int i=0;i<N;i++){
+      int cur = Integer.parseInt(st.nextToken());
+      while(!stack.isEmpty()){
+        if(cur < stack.peek().e){
+          sb.append(stack.peek().idx+" ");
+          break;
         }
-        System.out.println(sb);
+        stack.pop();
+      }
+      if(stack.isEmpty()){
+        sb.append("0 ");
+      }
+      stack.add(new Pos(cur, i+1));
     }
+    System.out.println(sb);
+  }
+  public static class Pos{
+    int e,idx;
+    public Pos(int e, int idx){
+      this.e = e;
+      this.idx = idx;
+    }
+  }
 }
+
+/*
+5
+1 2 3 4 5
+ */
